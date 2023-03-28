@@ -1,0 +1,42 @@
+
+.daily-item{
+    background-color: aliceblue;
+    border-radius: 7rem;
+    height: 2rem;
+    margin: .7rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: .9rem;
+}
+.title{
+    font-size: larger;
+    font-weight: 800;
+    text-align: center;
+    }
+.icon{
+    width: 3rem;
+}
+.right{
+    position: absolute;
+    right:160px;
+}
+.desc{
+    margin-right: 1.5rem;
+}
+.min-max{
+    color: gray;
+    font-weight: 800;
+}
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .data-left{
+        margin-right: 20rem;
+    }
+.heading{
+    color: gray;
+    font-weight: 900;
+}
