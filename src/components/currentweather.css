@@ -1,0 +1,49 @@
+.currentweather{
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 2rem auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46, 44, 44);
+    color: white;
+}
+.top{
+    display: flex;
+}
+.weather-desc{
+    font-size: 1.5rem;
+    padding-right: 2rem;
+
+}
+.city{
+    font-size: 1.5rem;
+    padding-right: 2rem;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.tempreture{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-right: 2rem;
+}
+.details{
+       padding-top: 1.2rem;
+}
+.parameter-row{
+    display: flex;
+}
+@media screen and (max-width: 768px){
+
+.currentweather{
+    
+    display: flex;
+    width:40%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+}
