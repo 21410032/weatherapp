@@ -9,6 +9,7 @@
     align-items: center;
     cursor: pointer;
     font-size: .9rem;
+   
 }
 .title{
     font-size: larger;
@@ -33,6 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color:white;
 }
     .data-left{
         margin-right: 20rem;
