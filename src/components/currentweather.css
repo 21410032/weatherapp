@@ -8,6 +8,7 @@
     justify-content: center;
     background-color: rgb(46, 44, 44);
     color: white;
+     box-shadow: 1px -1px 20px rgb(48, 76, 212);
 }
 .top{
     display: flex;
